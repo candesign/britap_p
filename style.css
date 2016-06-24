@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* line 6, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.close {
+  width: 75px;
+  height: 85px;
+  position: absolute;
+  right: 0;
+  z-index: 999; }
+
+/* line 12, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.close a {
+  display: block;
+  width: 60px;
+  height: 60px; }
+
+/* line 14, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.container {
+  position: relative;
+  width: 480px;
+  height: 720px;
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #EEEEEE; }
+
+/* line 28, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+a img {
+  border: 0px; }
+
+/* line 32, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+#s1 {
+  margin-top: 144px; }
+
+/* line 36, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+#s1, #s2 {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1px; }
+
+/* line 41, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.sp-next-arrow:after, .sp-next-arrow:before, .sp-previous-arrow:after, .sp-previous-arrow:before {
+  background-color: transparent;
+  transform: none; }
+
+/* line 46, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.sp-next-arrow, .sp-next-arrow {
+  background: url("img/arr_right.png") no-repeat;
+  padding: 1em; }
+
+/* line 50, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.sp-previous-arrow, .sp-previous-arrow {
+  background: url("img/arr_left.png") no-repeat;
+  padding: 1em; }
+
+/* line 55, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.head {
+  position: absolute;
+  top: 0px;
+  z-index: 100; }
+
+/* line 61, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  z-index: 100; }
+
+/* line 68, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+.blink {
+  position: absolute;
+  top: -204px;
+  z-index: 200;
+  transition: 1s all ease;
+  opacity: .7; }
+
+/* line 77, D:/PROJEKTY/Brita/brita-puzzle/style.scss */
+body {
+  -webkit-user-select: none;
+  /* Chrome i Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE 10 i wyżej */
+  -o-user-select: none;
+  /* Aktualnie niewspierane */
+  user-select: none;
+  /* Aktualnie niewspierane */ }
+
+/*# sourceMappingURL=style.css.map */
