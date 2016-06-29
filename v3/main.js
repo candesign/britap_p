@@ -69,4 +69,17 @@ $(document).ready(function() {
 		}
 	}//end tester
 
+document.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+    ga('send', {
+  hitType: 'event',
+  eventCategory: 'Interaction',
+  eventAction: 'slidermove',
+  eventLabel: 'Brita Puzzle'
+});
+    alert("Coś");
+}, false);
+
+    
+
 });//end document ready
