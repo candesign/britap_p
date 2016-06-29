@@ -77,7 +77,6 @@ document.addEventListener('touchmove', function(e) {
   eventAction: 'slidermove',
   eventLabel: 'Brita Puzzle'
 });
-    alert("Coś");
 }, false);
 
     
